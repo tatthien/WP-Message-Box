@@ -19,7 +19,8 @@ License: A "Slug" license name e.g. GPL2
  */
 if(!function_exists('tt_plugin_setup')) {
     function tt_plugin_setup() {
-        require_once dirname( __FILE__ ) . '/core/options-setting.php';
+        require_once dirname( __FILE__ ) . '/core/options.php';
+        require_once dirname( __FILE__ ) . '/core/settings.php';
     }
 }
 

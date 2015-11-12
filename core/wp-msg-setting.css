@@ -30,6 +30,6 @@
 	border-bottom: 1px solid #efefef;
 }
 
-.wp-msg-setting-body .section:last-child {
-	border: none;
+.wp-msg-action-button {
+    margin-top: 30px;
 }
