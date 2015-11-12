@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese,latin-ext);
+
+#wp-message-box-wrapper {
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    background: #fff;
+    z-index: 9999999;
+}
+
+#wp-message-box-wrapper iframe {
+    margin: 0;
+}
+
+.wp-message-box-header {
+    cursor: pointer;
+}
+
+.wp-message-box-header h2 {
+    width: 100%;
+    font-size: 1em;
+    font-weight: normal;
+    background: #007acc;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+}
+
+.wp-message-box-header h2 .icon {
+    float: right;
+}
+
+.wp-message-box-body {
+    display: none;
+}
+

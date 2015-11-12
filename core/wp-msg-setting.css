@@ -1,0 +1,35 @@
+#wp-msg-setting {
+    background: white;
+    margin: 40px 40px 40px 20px;
+}
+
+.wp-msg-setting-header {
+    background: #2c2c2c;
+    padding: 10px 20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.wp-msg-setting-header * {
+    color: #fff;
+}
+
+.wp-msg-setting-header h1 {
+    text-transform: uppercase;
+}
+
+.wp-msg-setting-body {
+    padding: 20px;
+}
+
+.wp-msg-setting-body .color-picker {
+	display: none;
+}
+
+.wp-msg-setting-body .section {
+	padding: 10px 0;
+	border-bottom: 1px solid #efefef;
+}
+
+.wp-msg-setting-body .section:last-child {
+	border: none;
+}
